@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    background-color: #333;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.menu-btn {
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.menu-list, .submenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center; /* Adicionado este estilo */
+}
+
+.menu-list li, .submenu li {
+    padding: 0 10px;
+}
+
+.menu-list a, .submenu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-list a:hover, .submenu a:hover {
+    color: #aaa;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    background-color: #333;
+    flex-direction: column;
+}
+
+.submenu.active {
+    display: flex;
+}
+
+.login {
+    position: ;
+    top: 10px;
+    right: 20px;
+}
