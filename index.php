@@ -22,8 +22,7 @@
 
         /* Estilo para a opção de login */
         .login {
-            position: absolute;
-            top: 10px;
+            position: relative; top: 80px; left: 1530px; 
             right: 10px;
         }
 
@@ -36,8 +35,8 @@
     <title>Adicionar Tarefa</title>
 </head>
 <body>
-    <div class="login">
-            <a href="login.php">Login</a>
+    <div class="adicionarTarefa">
+            <a href="adicionarTarefa.php">Adicionar Tarefa</a>
     </div>
     <div class="menu">
         <div class="menu-btn" onclick="toggleMenu()">&#9776;</div>
@@ -51,20 +50,5 @@
         </ul>
     </div>
     
-    <div class="content">
-        <h1>Adicionar Tarefa</h1>
-        <form action="processar_tarefa.php" method="post">
-            <label for="tarefa">Tarefa:</label>
-            <input type="text" name="tarefa" id="tarefa" required>
-            <br>
-            <label for="data">Data:</label>
-            <input type="date" name="data" id="data" required>
-            <br>
-            <label for="hora">Hora:</label>
-            <input type="text" name="hora" id="hora" required>
-            <br>
-            <button type="submit">Adicionar Tarefa</button>
-        </form>
-    </div>
 </body>
 </html>
