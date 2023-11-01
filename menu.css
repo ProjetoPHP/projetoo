@@ -50,8 +50,8 @@ body {
     display: flex;
 }
 
-.login {
-    position: ;
-    top: 10px;
+.adicionarTarefa {
+    position: absolute;
+    top: 60px;
     right: 20px;
 }
